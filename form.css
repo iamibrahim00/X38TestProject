@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding:0;
+
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media only screen and (orientation: landscape) {
+body{
+    background-image: url(formBackground.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+}
+/*Container*/
+.container{
+    display: flex;
+    height: 500px;
+    width: 690px;
+    /* border: 1px solid black; */
+    margin : auto;
+    margin-top: 50px;
+    box-shadow: 44px 15px  rgb(0, 0, 0);
+    border-radius: 2px;
+}
+
+/*Form*/
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: whitesmoke;
+   
+}
+
+.form h2{
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 25px;
+    color: rgb(204, 60, 60);;
+}
+.box{
+    padding: 4px;
+    width: 65%;
+    margin: 5px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px;
+   
+}
+#submit{
+    padding: 10px;
+    width:  50%;
+    margin: 10px;
+    background-color: rgb(204, 60, 60);
+    color: aliceblue;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#submit:hover{
+    cursor:pointer;
+    background-color: brown;
+ 
+}
+
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: brown;
+}
+.side img{
+    position: relative;
+    height: 500px;
+    width:500px;
+    left: 315px;
+
+}
+.bottom-right1 {
+    position: relative;
+    white-space: nowrap;
+  right: 345px;
+   top: 110px;
+    
+    font-weight: bold;
+    font-size:x-large;
+    color: whitesmoke;
+  }
+  .bottom-right2 {
+    position: relative;
+    white-space: nowrap;
+  right: 477px;
+   top: 200px;
+    
+    font-weight: bold;
+    font-size:small;
+    color: whitesmoke;
+  }
+.bottom-right {
+    position: relative;
+    white-space: nowrap;
+  left: -40px;
+   top: 150px;
+    
+    font-weight: bold;
+    font-size:xx-large;
+    color: whitesmoke;
+  }
